@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("asset/images/bg.jpg");
+    height: 644px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main .Box{
+    height: 644px;
+    width: 100%;
+    opacity: 0.100;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    color: red;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+nav button {
+    position: relative;
+    z-index: 10;
+}
